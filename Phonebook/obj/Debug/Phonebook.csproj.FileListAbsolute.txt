@@ -1,0 +1,68 @@
+C:\Users\agent\Documents\Visual Studio 2015\Projects\Phonebook\Phonebook\obj\Debug\App.g.cs
+C:\Users\agent\Documents\Visual Studio 2015\Projects\Phonebook\Phonebook\obj\Debug\Phonebook_Content.g.cs
+C:\Users\agent\Documents\Visual Studio 2015\Projects\Phonebook\Phonebook\obj\Debug\Phonebook_MarkupCompile.cache
+C:\Users\agent\Documents\Visual Studio 2015\Projects\Phonebook\Phonebook\bin\Debug\PhonebookDB.mdf
+C:\Users\agent\Documents\Visual Studio 2015\Projects\Phonebook\Phonebook\bin\Debug\PhonebookDB_log.ldf
+C:\Users\agent\Documents\Visual Studio 2015\Projects\Phonebook\Phonebook\bin\Debug\Phonebook.exe.config
+C:\Users\agent\Documents\Visual Studio 2015\Projects\Phonebook\Phonebook\bin\Debug\Phonebook.exe
+C:\Users\agent\Documents\Visual Studio 2015\Projects\Phonebook\Phonebook\bin\Debug\Phonebook.pdb
+C:\Users\agent\Documents\Visual Studio 2015\Projects\Phonebook\Phonebook\obj\Debug\MainWindow.g.cs
+C:\Users\agent\Documents\Visual Studio 2015\Projects\Phonebook\Phonebook\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\agent\Documents\Visual Studio 2015\Projects\Phonebook\Phonebook\obj\Debug\Phonebook_MarkupCompile.lref
+C:\Users\agent\Documents\Visual Studio 2015\Projects\Phonebook\Phonebook\obj\Debug\MainWindow.baml
+C:\Users\agent\Documents\Visual Studio 2015\Projects\Phonebook\Phonebook\obj\Debug\Phonebook.g.resources
+C:\Users\agent\Documents\Visual Studio 2015\Projects\Phonebook\Phonebook\obj\Debug\Phonebook.Properties.Resources.resources
+C:\Users\agent\Documents\Visual Studio 2015\Projects\Phonebook\Phonebook\obj\Debug\Phonebook.csproj.GenerateResource.Cache
+C:\Users\agent\Documents\Visual Studio 2015\Projects\Phonebook\Phonebook\obj\Debug\Phonebook.exe
+C:\Users\agent\Documents\Visual Studio 2015\Projects\Phonebook\Phonebook\obj\Debug\Phonebook.pdb
+C:\Users\agent\Documents\Visual Studio 2015\Projects\Phonebook\Phonebook\obj\Debug\Phonebook.csprojResolveAssemblyReference.cache
+C:\Users\agent\Documents\Visual Studio 2015\Projects\Phonebook\Phonebook\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\agent\Documents\Visual Studio 2015\Projects\Phonebook\Phonebook\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\agent\Documents\Visual Studio 2015\Projects\Phonebook\Phonebook\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\agent\Documents\Visual Studio 2015\Projects\Phonebook\Phonebook\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\agent\Documents\Visual Studio 2015\Projects\Phonebook\Phonebook\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Users\agent\Documents\Visual Studio 2015\Projects\Phonebook\Phonebook\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\agent\Documents\Visual Studio 2015\Projects\Phonebook\Phonebook\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\agent\Documents\Visual Studio 2015\Projects\Phonebook\Phonebook\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\agent\Documents\Visual Studio 2015\Projects\Phonebook\Phonebook\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\agent\Documents\Visual Studio 2015\Projects\Phonebook\Phonebook\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\agent\Documents\Visual Studio 2015\Projects\Phonebook\Phonebook\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\agent\Documents\Visual Studio 2015\Projects\Phonebook\Phonebook\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\agent\Documents\Visual Studio 2015\Projects\Phonebook\Phonebook\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\agent\Documents\Visual Studio 2015\Projects\Phonebook\Phonebook\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\agent\Documents\Visual Studio 2015\Projects\Phonebook\Phonebook\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\agent\Documents\Visual Studio 2015\Projects\Phonebook\Phonebook\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\Projects\Phonebook\Phonebook\bin\Debug\Phonebook.exe.config
+D:\Projects\Phonebook\Phonebook\obj\Debug\Phonebook.exe
+D:\Projects\Phonebook\Phonebook\obj\Debug\Phonebook.pdb
+D:\Projects\Phonebook\Phonebook\bin\Debug\PhonebookDB.mdf
+D:\Projects\Phonebook\Phonebook\bin\Debug\PhonebookDB_log.ldf
+D:\Projects\Phonebook\Phonebook\bin\Debug\Phonebook.exe
+D:\Projects\Phonebook\Phonebook\bin\Debug\Phonebook.pdb
+D:\Projects\Phonebook\Phonebook\bin\Debug\Xceed.Wpf.AvalonDock.dll
+D:\Projects\Phonebook\Phonebook\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\Projects\Phonebook\Phonebook\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\Projects\Phonebook\Phonebook\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\Projects\Phonebook\Phonebook\bin\Debug\Xceed.Wpf.DataGrid.dll
+D:\Projects\Phonebook\Phonebook\bin\Debug\Xceed.Wpf.Toolkit.dll
+D:\Projects\Phonebook\Phonebook\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\Projects\Phonebook\Phonebook\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\Projects\Phonebook\Phonebook\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\Projects\Phonebook\Phonebook\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\Projects\Phonebook\Phonebook\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\Projects\Phonebook\Phonebook\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\Projects\Phonebook\Phonebook\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\Projects\Phonebook\Phonebook\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\Projects\Phonebook\Phonebook\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\Projects\Phonebook\Phonebook\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\Projects\Phonebook\Phonebook\obj\Debug\Phonebook.csprojResolveAssemblyReference.cache
+D:\Projects\Phonebook\Phonebook\obj\Debug\MainWindow.g.cs
+D:\Projects\Phonebook\Phonebook\obj\Debug\App.g.cs
+D:\Projects\Phonebook\Phonebook\obj\Debug\Phonebook_Content.g.cs
+D:\Projects\Phonebook\Phonebook\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Projects\Phonebook\Phonebook\obj\Debug\Phonebook_MarkupCompile.cache
+D:\Projects\Phonebook\Phonebook\obj\Debug\Phonebook_MarkupCompile.lref
+D:\Projects\Phonebook\Phonebook\obj\Debug\MainWindow.baml
+D:\Projects\Phonebook\Phonebook\obj\Debug\Phonebook.g.resources
+D:\Projects\Phonebook\Phonebook\obj\Debug\Phonebook.Properties.Resources.resources
+D:\Projects\Phonebook\Phonebook\obj\Debug\Phonebook.csproj.GenerateResource.Cache
