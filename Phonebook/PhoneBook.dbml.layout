@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="PhoneBook">
+  <DataContextMoniker Name="/PhoneBookDataContext" />
+  <nestedChildShapes>
+    <classShape Id="17c5292b-e0ae-4a54-9403-c5c846d8d2e4" absoluteBounds="3.5, 3, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/PhoneBookDataContext/Addresses" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7d8f36f5-cabd-4abc-a384-2cbe7a734a42" absoluteBounds="3.515, 3.46, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="567269aa-c2bf-4afe-81f0-494a8890334c" absoluteBounds="3.5, 1, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/PhoneBookDataContext/Phones" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ee0df075-c351-4080-a700-3476992de87f" absoluteBounds="3.515, 1.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9004a640-a3cd-46bc-9601-87dca95c4a48" absoluteBounds="0.75, 2.125, 2, 1.7708968098958335">
+      <DataClassMoniker Name="/PhoneBookDataContext/Persons" />
+      <nestedChildShapes>
+        <elementListCompartment Id="30f6e41b-934e-4331-afec-afb1aab25336" absoluteBounds="0.765, 2.585, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 3.44794840494792); (3.5 : 3.44794840494792)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/PhoneBookDataContext/Persons/Persons_Addresses" />
+      <nodes>
+        <classShapeMoniker Id="9004a640-a3cd-46bc-9601-87dca95c4a48" />
+        <classShapeMoniker Id="17c5292b-e0ae-4a54-9403-c5c846d8d2e4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 2.125); (1.75 : 1.5624995); (3.5 : 1.5624995)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/PhoneBookDataContext/Persons/Persons_Phones" />
+      <nodes>
+        <classShapeMoniker Id="9004a640-a3cd-46bc-9601-87dca95c4a48" />
+        <classShapeMoniker Id="567269aa-c2bf-4afe-81f0-494a8890334c" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

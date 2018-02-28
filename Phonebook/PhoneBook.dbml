@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="PhonebookDB" Class="PhoneBookDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\PhonebookDB.mdf;Integrated Security=True" SettingsObjectName="Phonebook.Properties.Settings" SettingsPropertyName="PhonebookDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Addresses" Member="Addresses">
+    <Type Name="Addresses">
+      <Column Name="PersonId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="City" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Street" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="House" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="HouseBlock" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Flat" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Association Name="Persons_Addresses" Member="Persons" ThisKey="PersonId" OtherKey="PersonId" Type="Persons" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Phones" Member="Phones">
+    <Type Name="Phones">
+      <Column Name="PersonId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Phonenumber" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Association Name="Persons_Phones" Member="Persons" ThisKey="PersonId" OtherKey="PersonId" Type="Persons" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Persons" Member="Persons">
+    <Type Name="Persons">
+      <Column Name="PersonId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="LastName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="MiddleName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="BornDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="Persons_Addresses" Member="Addresses" ThisKey="PersonId" OtherKey="PersonId" Type="Addresses" Cardinality="One" />
+      <Association Name="Persons_Phones" Member="Phones" ThisKey="PersonId" OtherKey="PersonId" Type="Phones" Cardinality="One" />
+    </Type>
+  </Table>
+  <Function Name="dbo.SearchPerson" Method="SearchPerson">
+    <Parameter Name="lastname" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="firstname" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="middlename" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="city" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="street" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="house" Type="System.String" DbType="VarChar(10)" />
+    <Parameter Name="flat" Type="System.String" DbType="VarChar(10)" />
+    <Parameter Name="phone" Type="System.String" DbType="VarChar(20)" />
+    <ElementType Name="SearchPersonResult">
+      <Column Name="PersonId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="LastName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="MiddleName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="BornDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="PersonId1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Phonenumber" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="PersonId2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="City" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Street" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="House" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Flat" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.InsertPerson" Method="InsertPerson">
+    <Parameter Name="lastname" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="firstname" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="middlename" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="borndate" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="city" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="street" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="house" Type="System.String" DbType="VarChar(10)" />
+    <Parameter Name="flat" Type="System.String" DbType="VarChar(10)" />
+    <Parameter Name="phone" Type="System.String" DbType="VarChar(20)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>
