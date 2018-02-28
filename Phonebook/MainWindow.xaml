@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Phonebook"
         xmlns:wpfx="http://schemas.xceed.com/wpf/xaml/toolkit"
         mc:Ignorable="d" DataContext="{Binding RelativeSource={RelativeSource Self}}"
-        Title="Телефонный справочник" Height="700" Width="800" MinHeight="700" MinWidth="800">
+        Title="Телефонный справочник" Height="720" Width="800" MinHeight="720" MinWidth="800">
     <Window.Resources>
         <local:NullableConverter x:Key="NullableConverter"/>
         <local:DateConverter x:Key="DateConverter"/>
